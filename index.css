@@ -1,0 +1,30 @@
+
+html
+{
+    background-color: coral;
+}
+body {
+    margin: 2px;
+    padding: 2px;
+}
+
+.main-wrapper {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border: 10px solid black;
+}
+.header {
+    display: flex;
+    background-color: blanchedalmond;
+}
+.header-container-left {
+    background-color: burlywood;
+    width: 50%;
+
+}
+.header-container-right {
+
+    background-color: cadetblue;
+    width: 50%;
+}
