@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../Desktop/open Classroom/project 2/Reservia ressources EN/images"
+		},
+		{
+			"name": "project-2",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project-2"
+	}
+}
