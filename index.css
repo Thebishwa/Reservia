@@ -48,12 +48,6 @@ margin-bottom: 60px;
   min-width: 50px;
   border-radius: 22px 0 0 22px;
 }
-
-.icon {
-  height: 30px;
-  width: auto;
-}
-
 .middle-container {
   box-sizing: border-box;
   height: 100%;
@@ -99,6 +93,9 @@ padding-top: 15px;}
   height: 50px;
   width: 50px;
   margin-right: 10px;
+}
+i {
+padding-top: 12px;
 }
 
 .info {
