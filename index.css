@@ -125,9 +125,15 @@ width: max-content;
   align-items: center ;
   background-color:   #0065FC;
   border-radius: 0 22px 22px  0;
-  min-width: 90px;
+  width: 90px;
 }
-
+.right-container i {
+  display: none;
+}
+.right-container p {
+  color: white;
+  font-family: Raleway Medium;
+}
 /* Filter tag */
 
 .filter-tag_container { 
@@ -773,6 +779,26 @@ h3 {
   .search-container {
     width: 350px;
   }
+  .right-container p {
+    display: none;
+  }
+  .right-container i {
+    display: block;
+    color: white;
+    height: 40px;
+  }
+  .right-container {
+    position: absolute;
+    margin-left: 274px;
+    height: 60px;
+    width: 70px;
+    border-radius: 12px;
+  }
+  .middle-container {
+    width: 200px;
+
+  }
+
   .main-page-wrapper {
     flex-direction: column-reverse;
     width: 375px;
@@ -853,8 +879,8 @@ h3 {
     margin: 0;
   }
   .accommodations-link-container {
-   margin-right: 20px;
-   margin: left 0;
+    margin-right: 20px;
+    margin: left 0;
   }
   .title-image-container {
     width: fit-content;
