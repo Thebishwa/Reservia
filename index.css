@@ -13,7 +13,7 @@ body {
 }
 .filter {
   margin-left: 30px;
-  
+
 }
 .activities {
   margin-left: 30px;
@@ -110,7 +110,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: px;
+  margin: 0px;
   background: rgb(232 238 249);
   height: 100%;
   min-width: 50px;
@@ -217,7 +217,7 @@ input {
 .tag1_image-container {
   display: flex;
   justify-content: center;
-  align-items: left;
+  box-align: left;
   background: #deebff;
   border-radius: 50%;
   height: 50px;
@@ -231,7 +231,7 @@ input {
   display: flex;
   border: 2px solid lightgray;
   border-left: none;
-  align-items: center;
+  box-align: center;
   border-radius: 25px;
   padding-right: 25px;
   margin-right:10px;
@@ -243,7 +243,7 @@ input {
 .tag3_image-container {
   display: flex;
   justify-content: center;
-  align-items: left;
+  box-align: left;
   background: #deebff;
   border-radius: 50%;
   height: 50px;
@@ -252,6 +252,7 @@ input {
 }
 .tag3_text-container {
   width: max-content;
+  margin-top: 7px;
 }
 i {
   margin-top: 15px;
@@ -930,7 +931,7 @@ h3 {
   }
   .accommodations-link-container {
     margin-right: 20px;
-    margin: left 0;
+    margin-left :1px
   }
   .title-image-container {
     width: fit-content;
@@ -942,7 +943,7 @@ h3 {
       content: ' ';
     }
     .image-info-container {
-      margin-left: none;
+      margin-left: 0;
     }
   .sign-up {
     position:absolute;
