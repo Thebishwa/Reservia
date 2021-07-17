@@ -38,17 +38,7 @@ p {
   font-size: 16px;
   padding-top: 5px;
 }
-h4 {
-  font-family: Raleway;
-  font-size: 16px;
-  color:#777777;
-  margin-right: 30px;
-  margin-left: 10px;
-}
-.signup {
-  display: flex;
-  width: max-content;
-}
+
 h5 {
   font-family: Raleway; 
   color: #777777;
@@ -57,8 +47,8 @@ h5 {
   padding-top: 14px;
   width: max-content;
 }
-h6 {
-font-size: 18px;
+h4 {
+font-size: 21px;
 }
 .heading-wrapper {
   display: flex;
@@ -67,27 +57,30 @@ font-size: 18px;
 }
 .title-container {
   display: flex;
-  width: 80%;
+  width: 65%;
   height: fit-content;
   margin-left: 30px;
 }
 
 .title-image-container img {
   display: flex;
-  margin-right: 650px;
+  margin-right: 800px;
   margin-top: 20px;
 }
-.title-link-container {
+.link-container-left{
   display: flex;
-  margin-top: 20px;
+  margin-left: 2px;
+  width: max-content; 
 }
-.signup {
+.link-container-middle {
   display: flex;
-margin-left: 2px;
+  margin-left: 50px;
+  width: max-content; 
+}
+.link-container-right {
+  display: flex;
+margin-left: 50px;
 width: max-content;
-}
-.accommodations-link-container {
-  display: flex;
 }
 a:hover {
   color:  #0096FF;;
@@ -190,12 +183,13 @@ input {
   transform: scale(1.5); 
 }
 .filter-tag_container { 
+  max-width: 100%;
   display: flex;
   height: 75px;
 }
 
 .filter-title-ontainer {
-  background: saddlebrown;
+  background: blue;
   width: 60px;
   height: 60px;
   margin-right: 10px;
@@ -538,7 +532,7 @@ color: blue;
 }
 /*most popular*/
 .popular_card-container {
-  background:#F2F2F2;
+  background: #f2f2f2;
   width: 30%;
   height: 100%;
   padding: 30px;
@@ -555,10 +549,10 @@ color: blue;
   margin-left: 150px;
 }
 .card-21__main-wrapper {
-  background: #ffffff;
+  background:#ffffff;
   display: flex;
   border-radius: 18px;
-  width: 350px;
+  width: 90%;
   height: 130px;
   padding: 5px 5px 5px 5px;
   margin-top: 20px;
@@ -587,7 +581,7 @@ color: blue;
     background: #ffffff;
     display: flex;
     border-radius: 18px;
-    width: 350px;
+    width: 90%;
     height: 130px;
     padding: 5px 5px 5px 5px;
     margin-top: 30px;
@@ -615,7 +609,7 @@ color: blue;
     background: #ffffff;
     display: flex;
     border-radius: 18px;
-    width: 350px;
+    width: 90%;
     height: 130px;
     padding: 5px 5px 5px 5px;
     margin-top: 30px;
@@ -643,7 +637,7 @@ color: blue;
 
  /*activities */
   .activities_twin-container {
-    flex-direction: column;
+  flex-direction: column;
   max-width: 100%;
   min-width: 310px;
   height: 205px;
@@ -652,7 +646,7 @@ color: blue;
 
 .activities-container {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
 }
 
@@ -660,7 +654,7 @@ color: blue;
   justify-content: center;
   border-radius: 18px;
   min-width: 310px;
-  max-width: 20%;
+  max-width: 550px;
   height: 440px;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -683,7 +677,7 @@ color: blue;
   justify-content: center;
   border-radius: 18px;
   min-width: 310px;
-  max-width: 400px;
+  max-width: 550px;
   height: 100%;
   margin-left: 30px;
   margin-bottom: 30px;
@@ -707,7 +701,7 @@ color: blue;
   justify-content: center;
   border-radius: 18px;
   min-width: 310px;
-  max-width: 400px;
+  max-width: 550px;
   height: 100%;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -741,7 +735,7 @@ color: blue;
   justify-content: center;
   border-radius: 18px;
   min-width: 310px;
-  max-width: 20%;
+  max-width: 550px;
   height: 100%;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -763,7 +757,7 @@ color: blue;
   justify-content: center;
   border-radius: 18px;
   min-width: 310px;
-  max-width: 20%;
+  max-width: 550px;
   height: 100%;
   margin-top: 30px;
   margin-left: 30px;
@@ -773,8 +767,8 @@ color: blue;
   
 .card-16__image-container img {
   justify-content: center;
-  min-width: 100%;
-  max-width: 400px;
+  width: 100%;
+  
   height:150px;
   border-radius: 18px 18px 0 0;
 }
@@ -929,6 +923,7 @@ h3 {
     flex-direction: row;
   }
   .title-container {
+    margin-bottom: 100px;
     flex-direction: column;
     margin-top: 0%;
     width: 300px;
@@ -936,12 +931,24 @@ h3 {
   .fancy-border {
     width: 100%;
     border-bottom: 3px solid;
-    border-image:   linear-gradient(to right,#0065FC 50%, #d3d3d3 50%) 2;
+    border-image: linear-gradient(to right,#0065FC 50%, #d3d3d3 50%) 2;
     margin: 0;
   }
-  .accommodations-link-container {
-    margin-right: 20px;
-    margin-left :1px
+  .link-container-left {
+    flex-direction: column;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+  }
+  .link-container-middle {
+    flex-direction: column;
+    position: absolute;
+    margin-left: 200px;
+  }
+  .link-container-right {
+    position: absolute;
+    margin-left: 300px;
   }
   .title-image-container {
     width: fit-content;
@@ -955,13 +962,10 @@ h3 {
     .image-info-container {
       margin-left: 0;
     }
-  .sign-up {
-    position:absolute;
-    margin-left: 270px;
-  }
   .tag3_main-wrapper {
+
     position: absolute;
-    margin-left: 200px;
-    margin-top: 45px;
+    margin-left: 190px;
+    margin-top: 60px;
   }
 }
