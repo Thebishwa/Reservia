@@ -854,7 +854,11 @@ h3 {
   .middle-container {
     width: 200px;
   }
+  h1 {
+    margin-top: none;
+  }
 .accommodations-container {
+  margin-top: 7px;
   width: 300px;
   margin-left: 0px;
   background: none;
@@ -865,7 +869,7 @@ h3 {
   }
   .popular_card-container {
     width: 300px;
-    margin:30px 0 30px 0;
+    margin:30px 0 10px 0;
   }
   .popular_card-title_container h1 {
     width: fit-content
@@ -883,7 +887,9 @@ h3 {
     flex-direction: column;
     width: 300px;
   }
-
+  h4 {
+    margin-top: 5px;
+  }
   .activities-container {
     flex-direction: column;
     width: 100%;
