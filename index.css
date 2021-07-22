@@ -655,7 +655,7 @@ color: blue;
 .card-11__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 310px;
+  min-width: 250px;
   max-width: 550px;
   height: 440px;
   margin-left: 30px;
@@ -678,7 +678,7 @@ color: blue;
 .card-12__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 310px;
+  min-width: 250px;
   max-width: 550px;
   height: 100%;
   margin-left: 30px;
@@ -702,7 +702,7 @@ color: blue;
   background-color: #ffffff;
   justify-content: center;
   border-radius: 18px;
-  min-width: 310px;
+  min-width: 250px;
   max-width: 550px;
   height: 100%;
   margin-left: 30px;
@@ -736,7 +736,7 @@ color: blue;
 .card-15__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 310px;
+  min-width: 250px;
   max-width: 550px;
   height: 100%;
   margin-left: 30px;
@@ -758,7 +758,7 @@ color: blue;
 .card-16__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 310px;
+  min-width: 250px;
   max-width: 550px;
   height: 100%;
   margin-top: 30px;
