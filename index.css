@@ -5,6 +5,7 @@ body {
   font-family: Raleway;
   font-size: 14px;
   width: auto;
+  overflow-x : hidden;
 }
 .headline {
   margin-left: 30px;
@@ -655,8 +656,7 @@ color: blue;
 .card-11__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 250px;
-  max-width: 550px;
+  max-width: 22%;
   height: 440px;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -678,8 +678,6 @@ color: blue;
 .card-12__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 250px;
-  max-width: 550px;
   height: 100%;
   margin-left: 30px;
   margin-bottom: 30px;
@@ -702,14 +700,19 @@ color: blue;
   background-color: #ffffff;
   justify-content: center;
   border-radius: 18px;
-  min-width: 250px;
-  max-width: 550px;
   height: 100%;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   }
-  
+  .card-14__main-wrapper {
+    justify-content: center;
+    border-radius: 18px;
+    min-width: 250px;
+    height: 440px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    } 
 .card-13__image-container img {
   justify-content: center;
   width: 100%;
@@ -721,23 +724,9 @@ color: blue;
   font-size: 16px;
   margin-left: 15px;
 }
-
-.card-14__image-container img {
-  justify-content: center;
-  width: 100%;
-  height: 390px;
-  border-radius: 18px 18px 0 0;
-}
-.card-14__bottom-container h3 {
-  font-size: 16px;
-  margin-left: 15px;
-}
-
 .card-15__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 250px;
-  max-width: 550px;
   height: 100%;
   margin-left: 30px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -758,8 +747,6 @@ color: blue;
 .card-16__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 250px;
-  max-width: 550px;
   height: 100%;
   margin-top: 30px;
   margin-left: 30px;
@@ -897,7 +884,7 @@ h3 {
     height: fit-content
   }
   .card-11__main-wrapper {
-    width: 300px;
+    max-width: 300px;
   }
   .card-12__main-wrapper {
     margin-top: 30px;
