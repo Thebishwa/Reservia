@@ -659,7 +659,7 @@ color: blue;
 .card-11__main-wrapper {
   justify-content: center;
   border-radius: 18px;
-  min-width: 300px;
+  min-width: 250px;
   max-width: 340px;
   height: 440px;
   margin-left: 30px;
@@ -1026,11 +1026,20 @@ h3 {
   .card-21__main-wrapper {
     width: 600px;
   }
+  .card-21__image-container img {
+    width: 200px;
+  }
   .card-22__main-wrapper {
     width: 600px;
   }
+  .card-22__image-container img  {
+    width: 200px;
+  }
   .card-23__main-wrapper {
     width: 600px;
+  }
+  .card-23__image-container img {
+    width: 200px;
   }
   .left_accommodations-container__cards-container {
     flex-direction: row;
