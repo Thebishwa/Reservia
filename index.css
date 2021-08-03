@@ -29,7 +29,6 @@ font-family: Raleway;
 }
 h1 {
   font-size: 21px;
-  display: flex;
 }
 p {
   font-family: Raleway;
@@ -90,6 +89,7 @@ a {
 }
 input {
   border:none;
+  font-weight: bold;
 }
 /*search tag*/
 
@@ -829,7 +829,7 @@ h3 {
 }
 /*mobile view*/
 
-@media (min-width: 375px) and (max-width: 375px) {
+@media (width: 375px) {
   .container { 
     flex-direction: column;
     width: fit-content;
@@ -879,6 +879,9 @@ h3 {
   }
   .card-22__main-wrapper {
     width: fit-content;
+  }
+  .card-22__side-container h3 {
+    font-size: 14px;
   }
   .card-23__main-wrapper {
     width: fit-content;
@@ -975,7 +978,7 @@ h3 {
 }
 /*tablet view*/
 
-@media (min-width: 768px) and (max-width: 768px) {
+@media (width: 768px) {
   .container { 
     flex-direction: column;
     width: fit-content;
